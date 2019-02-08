@@ -1,11 +1,11 @@
 s=int(input())
 temp=s
-rev=0
+reverse=0
 while(s>0):
-  dig=s%10
-  rev=rev*10+dig
+  digit=s%10
+  reverse=reverse*10+digit
   s=s//10
-if(temp==rev):
+if(temp==reverse):
 	print("yes")
 else:
 	print("no")
